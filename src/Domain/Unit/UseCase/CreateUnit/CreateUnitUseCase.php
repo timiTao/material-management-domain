@@ -64,5 +64,4 @@ class CreateUnitUseCase implements ResponderAwareInterface
             $responder->unitCreated(new CreateUnitResponse($unit->getName()));
         }
     }
-
 }

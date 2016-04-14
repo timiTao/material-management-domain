@@ -46,5 +46,4 @@ class TreeManager
         $parent->addChild($newChild);
         $this->categoryRepository->update($parent);
     }
-
 }

@@ -73,5 +73,4 @@ class UnitListUseCase implements ResponderAwareInterface
             $responder->unitListFetched(new UnitListResponse($items));
         }
     }
-
 }
