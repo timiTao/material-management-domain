@@ -1,4 +1,13 @@
-Material management
+[![License](https://poser.pugx.org/timitao/material-management-domain/license.svg)](https://packagist.org/packages/timitao/material-management)
+[![Latest Stable Version](https://poser.pugx.org/timitao/material-management-domain/v/stable.svg)](https://packagist.org/packages/timitao/material-management)
+[![Latest Unstable Version](https://poser.pugx.org/timitao/material-management-domain/v/unstable.svg)](https://packagist.org/packages/timitao/material-management)
+[![Total Downloads](https://poser.pugx.org/timitao/material-management-domain/downloads.svg)](https://packagist.org/packages/timitao/material-management)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/08061367-1d1a-46af-9b56-6a44280933e9/mini.png)](https://insight.sensiolabs.com/projects/08061367-1d1a-46af-9b56-6a44280933e9)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/timiTao/material-management-domain/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/timiTao/material-management-domain/?branch=master)
+[![Build Status](https://travis-ci.org/timiTao/material-management-domain.svg?branch=master)](https://travis-ci.org/timiTao/material-management)
+
+
+Material management Domain
 =======
 
 Proof of concept - hexagonal architecture.
@@ -20,3 +29,12 @@ To run behat Domain tests
 - ``php bin/behat --suite="DomainMaterial"``
 
 Scenarios are at folder ``features/Domain``
+
+## Versioning
+
+Staring version ``1.0.0``, will follow [Semantic Versioning v2.0.0](http://semver.org/spec/v2.0.0.html).
+
+## Contributors
+
+* Tomasz Kunicki [TimiTao](http://github.com/timiTao) [lead developer]
+
