@@ -20,6 +20,10 @@ Code sources as examples:
 - https://github.com/cocoders/FileArchive
 - https://github.com/cocoders/FileArchiveSymfony
 
+## Implementation
+
+- As Symfony2 application: [Material-management](https://github.com/timiTao/material-management)
+
 ## Test's command
 
 To run behat Domain tests
