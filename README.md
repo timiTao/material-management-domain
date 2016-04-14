@@ -7,7 +7,7 @@ Sources:
 - https://www.youtube.com/watch?v=o7RuWf0mniQ
 - http://fideloper.com/hexagonal-architecture
 
-Code sources
+Code sources as examples:
 - https://github.com/cocoders/FileArchive
 - https://github.com/cocoders/FileArchiveSymfony
 
