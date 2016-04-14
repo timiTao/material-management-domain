@@ -1,0 +1,17 @@
+{
+    "name": "timitao/material-management-domain",
+    "license": "MIT",
+    "type": "project",
+    "description": "Proof of concept - hexagonal architecture",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "require-dev": {
+        "behat/behat": "^3.1"
+    }
+}

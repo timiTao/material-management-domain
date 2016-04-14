@@ -1,0 +1,17 @@
+default:
+  suites:
+    DomainUnit:
+      paths:
+        - %paths.base%/features/Domain/Unit
+      contexts:
+        - Behat\Domain\UnitFeatureContext
+    DomainCategory:
+      paths:
+        - %paths.base%/features/Domain/Category
+      contexts:
+        - Behat\Domain\CategoryFeatureContext
+    DomainMaterial:
+      paths:
+        - %paths.base%/features/Domain/Material
+      contexts:
+        - Behat\Domain\MaterialFeatureContext
