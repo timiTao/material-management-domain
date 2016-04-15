@@ -23,7 +23,7 @@ Code sources as examples:
 ## Implementation
 
 - As Symfony2 application: [Material-management](https://github.com/timiTao/material-management)
-- As Kohana 3.3 application: (Material-management)[https://github.com/timiTao/material-management-kohana]
+- As Kohana 3.3 application: [Material-management](https://github.com/timiTao/material-management-kohana)
 
 ## Test's command
 
