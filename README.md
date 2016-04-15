@@ -23,6 +23,7 @@ Code sources as examples:
 ## Implementation
 
 - As Symfony2 application: [Material-management](https://github.com/timiTao/material-management)
+- As Kohana 3.3 application: (Material-management)[https://github.com/timiTao/material-management-kohana]
 
 ## Test's command
 
@@ -41,4 +42,3 @@ Staring version ``1.0.0``, will follow [Semantic Versioning v2.0.0](http://semve
 ## Contributors
 
 * Tomasz Kunicki [TimiTao](http://github.com/timiTao) [lead developer]
-
