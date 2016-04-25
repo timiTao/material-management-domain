@@ -45,4 +45,3 @@ Staring version ``1.0.0``, will follow [Semantic Versioning v2.0.0](http://semve
 ## Contributors
 
 * Tomasz Kunicki [TimiTao](http://github.com/timiTao) [lead developer]
-
