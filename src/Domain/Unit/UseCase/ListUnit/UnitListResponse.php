@@ -17,7 +17,7 @@ class UnitListResponse
     /**
      * @var UnitListItem[]
      */
-    private $list;
+    public $list;
 
     /**
      * UnitListResponse constructor.
@@ -27,13 +27,5 @@ class UnitListResponse
     public function __construct(array $list)
     {
         $this->list = $list;
-    }
-
-    /**
-     * @return UnitListItem[]
-     */
-    public function getList()
-    {
-        return $this->list;
     }
 }

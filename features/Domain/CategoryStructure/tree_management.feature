@@ -1,5 +1,5 @@
-Feature: Category
-  In order to manage categories
+Feature: Category Single Root Tree Structure
+  In order to manage categories structure
   As a user
   I need to move categories
 

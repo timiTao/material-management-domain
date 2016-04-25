@@ -36,7 +36,6 @@ class UnitListUseCase implements ResponderAwareInterface
         $this->unitRepository = $unitRepository;
     }
 
-
     public function execute()
     {
         $units = $this->unitRepository->findAll();

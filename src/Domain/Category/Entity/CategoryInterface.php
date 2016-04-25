@@ -29,32 +29,4 @@ interface CategoryInterface
      * @return void
      */
     public function compose($name);
-
-    /**
-     * @return boolean
-     */
-    public function isRoot();
-
-    /**
-     * @param CategoryInterface $child
-     * @return void
-     */
-    public function addChild(CategoryInterface $child);
-
-    /**
-     * @return CategoryInterface[]
-     */
-    public function getChildren();
-
-    /**
-     * @param CategoryInterface $child
-     * @return bool
-     */
-    public function hasChild(CategoryInterface $child);
-
-    /**
-     * @param CategoryInterface $category
-     * @return void
-     */
-    public function removeChild(CategoryInterface $category);
 }

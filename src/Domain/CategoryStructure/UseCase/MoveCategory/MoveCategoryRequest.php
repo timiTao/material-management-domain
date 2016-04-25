@@ -5,14 +5,14 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace Domain\Category\UseCase\MoveCategory;
+namespace Domain\CategoryStructure\UseCase\MoveCategory;
 
 use Domain\Category\Entity\CategoryInterface;
 
 /**
  * Class MoveCategoryRequest
  *
- * @package Domain\Category\UseCase\MoveCategory
+ * @package Domain\CategoryStructure\UseCase\MoveCategory
  */
 class MoveCategoryRequest
 {

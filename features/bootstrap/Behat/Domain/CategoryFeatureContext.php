@@ -8,14 +8,12 @@
 namespace Behat\Domain;
 
 use Behat\Behat\Context\SnippetAcceptingContext;
-use Behat\Behat\Tester\Exception\PendingException;
 use Behat\Domain\Category\Category;
 use Behat\Domain\Category\CategoryFactory;
 use Behat\Domain\Category\CategoryRepository;
 use Behat\Gherkin\Node\TableNode;
 use Domain\Category\Entity\CategoryInterface;
 use Domain\Category\Repository\CategoryRepositoryInterface;
-use Domain\Category\Tree\TreeManager;
 use Domain\Category\UseCase\CreateCategory\CreateCategoryRequest;
 use Domain\Category\UseCase\CreateCategory\CreateCategoryUseCase;
 use Domain\Category\UseCase\EditCategory\EditCategoryRequest;
@@ -24,8 +22,9 @@ use Domain\Category\UseCase\ListCategory\CategoryListItem;
 use Domain\Category\UseCase\ListCategory\ListCategoryResponderInterface;
 use Domain\Category\UseCase\ListCategory\ListCategoryResponse;
 use Domain\Category\UseCase\ListCategory\ListCategoryUseCase;
-use Domain\Category\UseCase\MoveCategory\MoveCategoryRequest;
-use Domain\Category\UseCase\MoveCategory\MoveCategoryUseCase;
+use Domain\CategoryStructure\Structure\Tree\TreeManager;
+use Domain\CategoryStructure\UseCase\MoveCategory\MoveCategoryRequest;
+use Domain\CategoryStructure\UseCase\MoveCategory\MoveCategoryUseCase;
 
 /**
  * Class CategoryFeatureContext

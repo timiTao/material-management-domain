@@ -15,13 +15,13 @@ namespace Domain\Unit\UseCase\ListUnit;
 class UnitListItem
 {
     /** @var integer */
-    private $id;
+    public $id;
 
     /** @var string */
-    private $name;
+    public $name;
 
     /** @var string */
-    private $shortcut;
+    public $shortcut;
 
     /**
      * UnitListItem constructor.
@@ -35,29 +35,5 @@ class UnitListItem
         $this->id = $id;
         $this->name = $name;
         $this->shortcut = $shortcut;
-    }
-
-    /**
-     * @return int
-     */
-    public function getId()
-    {
-        return $this->id;
-    }
-
-    /**
-     * @return string
-     */
-    public function getName()
-    {
-        return $this->name;
-    }
-
-    /**
-     * @return string
-     */
-    public function getShortcut()
-    {
-        return $this->shortcut;
     }
 }

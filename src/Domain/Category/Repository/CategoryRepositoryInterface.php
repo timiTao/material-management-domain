@@ -35,19 +35,8 @@ interface CategoryRepositoryInterface
     public function findById($getCategoryId);
 
     /**
-     * @return CategoryInterface
-     */
-    public function findRootCategory();
-
-    /**
      * @param CategoryInterface $category
      * @return void
      */
     public function update(CategoryInterface $category);
-
-    /**
-     * @param CategoryInterface $category
-     * @return CategoryInterface
-     */
-    public function getParent(CategoryInterface $category);
 }

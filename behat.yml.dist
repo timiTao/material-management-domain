@@ -15,3 +15,8 @@ default:
         - %paths.base%/features/Domain/Material
       contexts:
         - Behat\Domain\MaterialFeatureContext
+    DomainCategoryStructure:
+      paths:
+        - %paths.base%/features/Domain/CategoryStructure
+      contexts:
+        - Behat\Domain\CategoryFeatureContext

@@ -16,9 +16,3 @@ Feature: Category
       | name    |
       | child a |
       | child b |
-    And Categories should have relation to parent:
-      | name    | parent |
-      | child a | root   |
-    And Categories should have own to child:
-      | name | child   |
-      | root | child a |

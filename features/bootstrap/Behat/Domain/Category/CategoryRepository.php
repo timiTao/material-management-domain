@@ -9,16 +9,22 @@ namespace Behat\Domain\Category;
 
 use Domain\Category\Entity\CategoryInterface;
 use Domain\Category\Repository\CategoryRepositoryInterface;
+use Domain\CategoryStructure\Repository\CategoryTreeRepositoryInterface;
 
 /**
  * Class CategoryRepository
  *
  * @package Behat\Domain\Category
  */
-class CategoryRepository implements CategoryRepositoryInterface
+class CategoryRepository implements
+    CategoryRepositoryInterface,
+    CategoryTreeRepositoryInterface
 {
     /** @var  CategoryInterface[] */
     private $list;
+
+    /** @var  array */
+    private $family;
 
     /**
      * CategoryRepository constructor.
@@ -62,18 +68,6 @@ class CategoryRepository implements CategoryRepositoryInterface
     }
 
     /**
-     * @return CategoryInterface
-     */
-    public function findRootCategory()
-    {
-        foreach ($this->list as $item) {
-            if ($item->isRoot()) {
-                return $item;
-            }
-        }
-    }
-
-    /**
      * @param CategoryInterface $category
      * @return void
      */
@@ -87,17 +81,23 @@ class CategoryRepository implements CategoryRepositoryInterface
         }
     }
 
-    /**
-     * @param CategoryInterface $category
-     * @return CategoryInterface
-     */
+    public function findRootCategory()
+    {
+        // TODO: Implement findRootCategory() method.
+    }
+
     public function getParent(CategoryInterface $category)
     {
-        /** @var CategoryInterface $item */
-        foreach ($this->list as $item) {
-            if ($item->hasChild($category)) {
-                return $item;
-            }
-        }
+        // TODO: Implement getParent() method.
+    }
+
+    public function assignToParent(CategoryInterface $parent, CategoryInterface $child)
+    {
+        // TODO: Implement assignToParent() method.
+    }
+
+    public function markAsTreeRoot(CategoryInterface $category)
+    {
+        // TODO: Implement markAsTreeRoot() method.
     }
 }

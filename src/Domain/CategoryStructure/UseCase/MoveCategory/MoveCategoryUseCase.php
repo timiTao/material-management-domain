@@ -5,16 +5,16 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace Domain\Category\UseCase\MoveCategory;
+namespace Domain\CategoryStructure\UseCase\MoveCategory;
 
-use Domain\Category\Tree\TreeManager;
+use Domain\CategoryStructure\Structure\Tree\TreeManager;
 use Domain\Common\UseCase\ResponderAwareInterface;
 use Domain\Common\UseCase\ResponderAwareTrait;
 
 /**
  * Class MoveCategoryUseCase
  *
- * @package Domain\Category\UseCase\MoveCategory
+ * @package Domain\CategoryStructure\UseCase\MoveCategory
  */
 class MoveCategoryUseCase implements ResponderAwareInterface
 {

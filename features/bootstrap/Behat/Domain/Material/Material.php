@@ -18,6 +18,9 @@ use Domain\Unit\Enitity\UnitInterface;
  */
 class Material implements MaterialInterface
 {
+    /** @var  integer */
+    private $id;
+
     /** @var  string */
     private $name;
 

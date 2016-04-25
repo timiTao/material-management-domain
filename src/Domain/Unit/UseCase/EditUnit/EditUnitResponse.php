@@ -15,7 +15,7 @@ namespace Domain\Unit\UseCase\EditUnit;
 class EditUnitResponse
 {
     /** @var  string */
-    private $name;
+    public $name;
 
     /**
      * EditUnitResponse constructor.
@@ -25,13 +25,5 @@ class EditUnitResponse
     public function __construct($name)
     {
         $this->name = $name;
-    }
-
-    /**
-     * @return string
-     */
-    public function getName()
-    {
-        return $this->name;
     }
 }

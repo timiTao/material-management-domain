@@ -9,7 +9,7 @@ namespace Domain\Category\UseCase\CreateCategory;
 
 use Domain\Category\CategoryFactoryInterface;
 use Domain\Category\Repository\CategoryRepositoryInterface;
-use Domain\Category\Tree\TreeManager;
+use Domain\CategoryStructure\Structure\Tree\TreeManager;
 use Domain\Common\UseCase\ResponderAwareInterface;
 use Domain\Common\UseCase\ResponderAwareTrait;
 

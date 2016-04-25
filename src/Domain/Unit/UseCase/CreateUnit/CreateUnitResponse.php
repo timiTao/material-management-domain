@@ -17,7 +17,7 @@ class CreateUnitResponse
     /**
      * @var string
      */
-    private $unitName;
+    public $unitName;
 
     /**
      * CreateUnitResponse constructor.
@@ -27,13 +27,5 @@ class CreateUnitResponse
     public function __construct($unitName)
     {
         $this->unitName = $unitName;
-    }
-
-    /**
-     * @return string
-     */
-    public function getNewUnitName()
-    {
-        return $this->unitName;
     }
 }

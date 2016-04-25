@@ -113,7 +113,7 @@ class UnitFeatureContext implements
             $found = array_filter(
                 $this->unitsList,
                 function (UnitListItem $unitListItem) use ($row) {
-                    return $unitListItem->getName() == $row['name'] && $unitListItem->getShortcut() == $row['shortcut'];
+                    return $unitListItem->name == $row['name'] && $unitListItem->shortcut == $row['shortcut'];
                 }
             );
 
@@ -142,7 +142,7 @@ class UnitFeatureContext implements
         $found = array_filter(
             $this->unitsList,
             function (UnitListItem $unitListItem) use ($unitName) {
-                return $unitListItem->getName() == $unitName;
+                return $unitListItem->name == $unitName;
             }
         );
 
@@ -160,13 +160,13 @@ class UnitFeatureContext implements
         $units = array_filter(
             $this->unitsList,
             function (UnitListItem $unitListItem) use ($unitName) {
-                return $unitListItem->getName() == $unitName;
+                return $unitListItem->name == $unitName;
             }
         );
 
         $unitId = null;
         if (count($units)) {
-            $unitId = $units[0]->getId();
+            $unitId = $units[0]->id;
         }
         $this->editUnitUseCase->execute(new EditUnitRequest($unitId, $newName, $newShortcut));
     }
@@ -183,7 +183,7 @@ class UnitFeatureContext implements
      */
     public function unitListFetched(UnitListResponse $response)
     {
-        $this->unitsList = $response->getList();
+        $this->unitsList = $response->list;
     }
 
     /**
